@@ -1,4 +1,4 @@
-![banner-week3](https://labs.tadigital.com/wp-content/uploads/2017/07/bemwithsass.jpg)
+![banner-week3](./assets/images/bannerReadme.png)
 
 # Challenge week 3
 
