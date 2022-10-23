@@ -24,4 +24,4 @@ Requirements:
 
 ### Netlify
 
-**Deploy:**
+**Deploy:** https://202210-w3-estefania-omar.netlify.app/
