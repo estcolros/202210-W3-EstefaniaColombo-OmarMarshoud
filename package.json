@@ -1,0 +1,19 @@
+{
+    "name": "week3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "keywords": [],
+    "author": "Estefania Colombo Rosario",
+    "license": "ISC",
+    "prettier": {
+        "singleQuote": true
+    },
+    "devDependencies": {
+        "husky": "^8.0.1"
+    }
+}
