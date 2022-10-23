@@ -15,5 +15,8 @@
     },
     "devDependencies": {
         "husky": "^8.0.1"
+    },
+    "dependencies": {
+        "sass": "^1.55.0"
     }
 }
