@@ -1,0 +1,117 @@
+$primary-color: #5f2eea;
+@mixin font-primary {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+@mixin pastillas {
+    background: linear-gradient(0deg, #f7f7fc, #f7f7fc),
+        linear-gradient(0deg, #14142b, #14142b);
+    border: 2px solid #14142b;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+h1 {
+    @include font-primary();
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $primary-color;
+    margin-top: 34px;
+}
+
+h2 {
+    @include font-primary();
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.form__search__inputs-columns {
+    display: flex;
+}
+
+.form__search__input {
+    @include pastillas();
+    font-family: 'Poppins';
+    font-style: normal;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    height: 56px;
+    width: 260px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.button_search {
+    @include font-primary();
+    border-radius: 40px;
+    background: #ed2e7e;
+    border-style: none;
+    text-align: center;
+    color: #f7f7fc;
+    font-size: 16px;
+    height: 55px;
+    width: 140.39999389648438px;
+    left: 7.7998046875px;
+    top: 0px;
+}
+
+.search__results-content {
+    border-style: solid;
+    border-color: rgb(0, 4, 255);
+    display: flex;
+}
+
+.form__search--secondary {
+    // position: absolute;
+    width: 369px;
+    height: 614px;
+    left: 130px;
+    top: 419px;
+
+    /* Primary / Dark */
+
+    background: #2a00a2;
+    border-radius: 20px;
+}
+.search__results-articles-container {
+    border-style: solid;
+    border-color: red;
+    width: 781px;
+    height: 1244px;
+    left: 536px;
+    top: 415px;
+    float: right;
+}
+
+.button--light {
+    height: 40px;
+    width: 155.4801788330078px;
+    left: 8.259765625px;
+    top: 0px;
+    border: 2px solid #d9dbe9;
+    border-radius: 40px;
+}
+
+h3 a {
+    @include font-primary();
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: $primary-color;
+    text-decoration: none;
+}
