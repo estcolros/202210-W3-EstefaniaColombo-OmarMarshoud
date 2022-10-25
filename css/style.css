@@ -67,8 +67,6 @@ h2 {
 }
 
 .search__results-content {
-  border-style: solid;
-  border-color: rgb(0, 4, 255);
   display: flex;
   margin-top: 113px;
 }
@@ -80,6 +78,13 @@ h2 {
   top: 419px;
   background: #2a00a2;
   border-radius: 20px;
+  margin-right: 37px;
+  text-align: center;
+}
+
+.form__search__inputs-columns {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .form__search--secondary div {
@@ -102,8 +107,6 @@ h2 {
 }
 
 .search__results-articles-container {
-  border-style: solid;
-  border-color: red;
   width: 781px;
   height: 1244px;
   left: 536px;
@@ -132,6 +135,7 @@ h3 a {
   align-items: center;
   color: #5f2eea;
   text-decoration: none;
+  padding-left: 35px;
 }
 
 label {
@@ -151,6 +155,8 @@ label {
   line-height: 34px;
   letter-spacing: 0.9999998808px;
   text-align: left;
+  display: block;
+  padding-bottom: 42px;
 }
 
 .from_search_options {
@@ -191,6 +197,109 @@ label {
 .form__search__input--icons {
   background: none;
   border: 0;
+}
+
+.search__result--article {
+  margin-bottom: 41px;
+}
+
+.search__result--article img {
+  position: relative;
+  float: left;
+}
+
+.evaluation {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+}
+
+.search__result-article-location,
+.search__result-article-description {
+  display: flex;
+  padding-left: 35px;
+}
+
+.search__result-article-map-link img {
+  padding-left: 35px;
+}
+
+.search__result-article-map-link {
+  color: #5f2eea;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+  text-align: left;
+}
+
+.notification {
+  height: 84.1428527832px;
+  width: 1167px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  background: #f2fffb;
+  border: 2px solid #00ba88;
+  border-radius: 16px;
+}
+
+.notification--error {
+  height: 84.1428527832px;
+  width: 1167px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  background: #fff3f8;
+  border: 2px solid #ed2e7e;
+  border-radius: 16px;
+}
+
+.contact,
+img {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.contact p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  position: absolute;
+  top: 144px;
+  left: 283.47px;
+  right: 283.47px;
+  bottom: 123px;
+}
+
+.button.button--transparent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #fcfcfc;
+  height: 63.9999990127px;
+  width: 242.9999962513px;
+  left: 0.2431640625px;
+  top: 0px;
+  border-radius: 40px;
+  position: absolute;
+  top: 310px;
+  bottom: 97px;
+  left: 465px;
+  background: none;
+  border: 2px solid #fcfcfc;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
