@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -79,7 +79,10 @@ h2 {
   background: #2a00a2;
   border-radius: 20px;
   margin-right: 37px;
-  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  justify-items: start;
 }
 
 .form__search__inputs-columns {
@@ -218,8 +221,6 @@ label {
 .search__result-article-description {
   display: flex;
   padding-left: 35px;
-  font-family: "Poppins";
-  font-style: normal;
   color: #4e4b66;
 }
 
@@ -235,6 +236,8 @@ label {
   line-height: 34px;
   letter-spacing: 0.75px;
   text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
 }
 
 .notification {
@@ -246,6 +249,7 @@ label {
   background: #f2fffb;
   border: 2px solid #00ba88;
   border-radius: 16px;
+  margin-bottom: 26px;
 }
 
 .notification--error {
@@ -257,6 +261,7 @@ label {
   background: #fff3f8;
   border: 2px solid #ed2e7e;
   border-radius: 16px;
+  margin-bottom: 56px;
 }
 
 .contact,
@@ -276,7 +281,7 @@ img {
   letter-spacing: 1px;
   color: #ffffff;
   position: absolute;
-  top: 144px;
+  top: 100px;
   left: 283.47px;
   right: 283.47px;
   bottom: 123px;
@@ -297,7 +302,7 @@ img {
   top: 0px;
   border-radius: 40px;
   position: absolute;
-  top: 310px;
+  top: 280px;
   bottom: 97px;
   left: 465px;
   background: none;
