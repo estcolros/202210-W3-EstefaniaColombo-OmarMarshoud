@@ -218,6 +218,9 @@ label {
 .search__result-article-description {
   display: flex;
   padding-left: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #4e4b66;
 }
 
 .search__result-article-map-link img {

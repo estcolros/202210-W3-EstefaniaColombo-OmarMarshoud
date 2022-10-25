@@ -217,6 +217,8 @@ label {
 .search__result-article-description {
     display: flex;
     padding-left: 35px;
+    @include font-primary();
+    color: #4e4b66;
 }
 .search__result-article-map-link img {
     padding-left: 35px;
