@@ -148,6 +148,7 @@ h3 a {
     align-items: center;
     color: $primary-color;
     text-decoration: none;
+    background-color: #ed2e7e;
 }
 
 label {
@@ -162,6 +163,8 @@ label {
     line-height: 34px;
     letter-spacing: 0.9999998807907104px;
     text-align: left;
+    display: block;
+    padding-bottom: 42px;
 }
 
 .from_search_options {
@@ -193,4 +196,22 @@ label {
 .form__search__input--icons {
     background: none;
     border: 0;
+}
+
+.search__result--article {
+    border-style: solid;
+    border-color: yellow;
+}
+.search__result--article img {
+    border-style: solid;
+    border-color: rebeccapurple;
+    position: relative;
+    float: left;
+}
+.evaluation {
+    border-style: solid;
+}
+
+.search__result-article-information {
+    color: green;
 }
