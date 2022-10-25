@@ -218,6 +218,9 @@ label {
 .search__result-article-description {
   display: flex;
   padding-left: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #4e4b66;
 }
 
 .search__result-article-map-link img {
@@ -300,6 +303,22 @@ img {
   background: none;
   border: 2px solid #fcfcfc;
   text-align: center;
+}
+
+.footer__description {
+  height: 246px;
+  width: 257px;
+  left: 140px;
+  top: 2504px;
+  float: left;
+}
+
+.footer__menu {
+  height: 246px;
+  width: 257px;
+  left: 140px;
+  top: 2504px;
+  float: left;
 }
 
 /*# sourceMappingURL=style.css.map */
