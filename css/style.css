@@ -302,4 +302,22 @@ img {
   text-align: center;
 }
 
+.footer__description {
+  border-style: solid;
+  height: 246px;
+  width: 257px;
+  left: 140px;
+  top: 2504px;
+  float: left;
+}
+
+.footer__menu {
+  border-style: solid;
+  height: 246px;
+  width: 257px;
+  left: 140px;
+  top: 2504px;
+  float: left;
+}
+
 /*# sourceMappingURL=style.css.map */
