@@ -504,8 +504,6 @@ a {
     text-align: left;
   }
   .search__results-articles-container {
-    border-style: solid;
-    border-color: #00ba88;
     height: auto;
     margin-bottom: 15px;
     width: 421px;
