@@ -1,7 +1,8 @@
-.header {
+.header_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1184px;
 }
 
 .header__button-hamburger {
@@ -260,6 +261,9 @@ label {
   border-radius: 16px;
   margin-bottom: 26px;
 }
+.notification .notification__text {
+  color: #00966d;
+}
 
 .notification--error {
   height: 84.1428527832px;
@@ -271,6 +275,18 @@ label {
   border: 2px solid #ed2e7e;
   border-radius: 16px;
   margin-bottom: 56px;
+}
+.notification--error .notification__text {
+  color: #c30052;
+}
+
+button.button--close {
+  float: right;
+  background: none;
+  border: 0;
+}
+button.button--close img {
+  width: 13px;
 }
 
 .contact,
@@ -422,6 +438,81 @@ a {
   font-family: "Poppins";
   font-style: normal;
   color: #6e7191;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1250px;
+}
+
+@media all and (max-width: 920px) {
+  * {
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  .header_top {
+    display: flex;
+    flex-direction: row;
+  }
+  h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.9999998808px;
+    text-align: left;
+  }
+  .form__search__inputs-columns {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__search__input {
+    display: flex;
+  }
+  .button_search {
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .form__search--secondary {
+    float: none;
+  }
+  .form__search--secondary div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+  }
+  .button--margin {
+    display: grid;
+    align-content: center;
+  }
+  .search__results--title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.9999998808px;
+    text-align: left;
+  }
+  .search__result--article img {
+    float: none;
+  }
+  h3 a {
+    align-items: flex-start;
+  }
+  .footer__menu {
+    visibility: hidden;
+    position: absolute;
+  }
+  .search__result-article-information {
+    border-style: solid;
+    width: 478px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

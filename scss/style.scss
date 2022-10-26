@@ -39,10 +39,20 @@ $primary-color: #5f2eea;
     box-sizing: border-box;
     border-radius: 16px;
 }
-.header {
+
+@mixin mobile-small {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+}
+.header_top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1184px;
 }
 
 .header__button-hamburger {
@@ -254,6 +264,9 @@ label {
     border: 2px solid #00ba88;
     border-radius: 16px;
     margin-bottom: 26px;
+    .notification__text {
+        color: #00966d;
+    }
 }
 
 .notification--error {
@@ -266,6 +279,18 @@ label {
     border: 2px solid #ed2e7e;
     border-radius: 16px;
     margin-bottom: 56px;
+    .notification__text {
+        color: #c30052;
+    }
+}
+button.button--close {
+    float: right;
+    background: none;
+    border: 0;
+
+    img {
+        width: 13px;
+    }
 }
 
 .contact,
@@ -383,4 +408,75 @@ a {
     @include text-small();
     @include font-primary();
     color: #6e7191;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1250px;
+}
+
+@media all and (max-width: 920px) {
+    //styleName: Mobile / Display Small Bold;
+    * {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .header_top {
+        display: flex;
+        flex-direction: row;
+    }
+    h2 {
+        @include mobile-small();
+    }
+    .form__search__inputs-columns {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__search__input {
+        display: flex;
+    }
+    .button_search {
+        display: grid;
+        justify-content: center;
+        align-content: space-around;
+    }
+    .form__search--secondary {
+        float: none;
+    }
+    .form__search--secondary div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: center;
+        flex-direction: row;
+    }
+    .button--margin {
+        display: grid;
+        align-content: center;
+    }
+    .search__results--title {
+        @include mobile-small();
+    }
+    .search__results-articles-container {
+    }
+    .search__result--article img {
+        float: none;
+    }
+
+    h3 a {
+        align-items: flex-start;
+    }
+    .footer__menu {
+        visibility: hidden;
+        position: absolute;
+    }
+    .search__result-article-information {
+        border-style: solid;
+        width: 478px;
+    }
+    .main__content--notifications {
+    }
 }
