@@ -124,6 +124,15 @@ h2 {
   top: 0px;
   border: 2px solid #d9dbe9;
   border-radius: 40px;
+  color: #5f2eea;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  background: none;
 }
 
 h3 a {
@@ -317,6 +326,28 @@ img {
   top: 2504px;
   float: left;
 }
+.footer__description h3 {
+  color: #5f2eea;
+  font-family: "Poppins";
+  font-style: normal;
+  margin-top: 79px;
+}
+.footer__description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+}
+.footer__description .footer__copyright {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
 
 .footer__menu {
   height: 246px;
@@ -324,6 +355,73 @@ img {
   left: 140px;
   top: 2504px;
   float: left;
+}
+.footer__menu .footer__menu-title {
+  color: #14142b;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  padding-left: 34px;
+  margin-top: 79px;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #6e7191;
+}
+
+.address {
+  float: left;
+  margin-top: 79px;
+  height: 246px;
+  width: 257px;
+  left: 140px;
+  top: 2504px;
+  display: grid;
+}
+.address .address__title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  font-style: normal;
+}
+
+.address a {
+  color: #5f2eea;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 0.75px;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.address__company-address,
+.address__telephone {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #6e7191;
 }
 
 /*# sourceMappingURL=style.css.map */

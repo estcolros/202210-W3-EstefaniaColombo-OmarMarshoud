@@ -25,6 +25,13 @@ $primary-color: #5f2eea;
     text-align: left;
 }
 
+@mixin footer_traits {
+    height: 246px;
+    width: 257px;
+    left: 140px;
+    top: 2504px;
+}
+
 @mixin pastillas {
     background: linear-gradient(0deg, #f7f7fc, #f7f7fc),
         linear-gradient(0deg, #14142b, #14142b);
@@ -144,6 +151,10 @@ h2 {
     top: 0px;
     border: 2px solid #d9dbe9;
     border-radius: 40px;
+    color: $primary-color;
+    @include font-primary();
+    @include text-small();
+    background: none;
 }
 
 h3 a {
@@ -298,17 +309,78 @@ img {
 }
 
 .footer__description {
-    height: 246px;
-    width: 257px;
-    left: 140px;
-    top: 2504px;
+    @include footer_traits();
     float: left;
+
+    h3 {
+        color: #5f2eea;
+        @include font-primary();
+        margin-top: 79px;
+    }
+    p {
+        @include text-small();
+    }
+    .footer__copyright {
+        @include font-primary();
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+        text-align: left;
+    }
 }
 
 .footer__menu {
-    height: 246px;
-    width: 257px;
-    left: 140px;
-    top: 2504px;
+    @include footer_traits();
     float: left;
+
+    .footer__menu-title {
+        color: #14142b;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0.75px;
+        text-align: left;
+        padding-left: 34px;
+        margin-top: 79px;
+    }
+}
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    @include text-small();
+    color: #6e7191;
+}
+.address {
+    float: left;
+    margin-top: 79px;
+    @include footer_traits();
+    display: grid;
+
+    .address__title {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0.75px;
+        text-align: left;
+        font-style: normal;
+    }
+}
+
+.address a {
+    color: #5f2eea;
+    @include text-small();
+    text-decoration: none;
+    letter-spacing: 0.75px;
+    @include font-primary();
+}
+
+.address__company-address,
+.address__telephone {
+    @include text-small();
+    @include font-primary();
+    color: #6e7191;
 }
