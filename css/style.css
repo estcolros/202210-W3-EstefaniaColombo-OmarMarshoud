@@ -35,6 +35,8 @@
 }
 
 h2 {
+    margin-top: 2rem;
+    margin-inline-start: 3rem;
     text-align: left;
     margin-top: 1.5rem;
     margin-inline-end: 3rem;
@@ -124,7 +126,7 @@ h2 {
     align-items: center;
 }
 
-.form__search--secondary h2 {
+.form__search--secondary h3 {
     text-align: right;
     font-family: 'Poppins';
     font-style: normal;
@@ -136,6 +138,7 @@ h2 {
     color: #bca4ff;
     display: flex;
     justify-content: flex-start;
+    margin-top: 1.5rem;
 }
 
 .search__results-articles-container {
