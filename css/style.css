@@ -1,7 +1,8 @@
-.header {
+.header_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1250px;
 }
 
 .header__button-hamburger {
@@ -260,6 +261,9 @@ label {
   border-radius: 16px;
   margin-bottom: 26px;
 }
+.notification .notification__text {
+  color: #00966d;
+}
 
 .notification--error {
   height: 84.1428527832px;
@@ -271,6 +275,18 @@ label {
   border: 2px solid #ed2e7e;
   border-radius: 16px;
   margin-bottom: 56px;
+}
+.notification--error .notification__text {
+  color: #c30052;
+}
+
+button.button--close {
+  float: right;
+  background: none;
+  border: 0;
+}
+button.button--close img {
+  width: 13px;
 }
 
 .contact,
@@ -422,6 +438,12 @@ a {
   font-family: "Poppins";
   font-style: normal;
   color: #6e7191;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1250px;
 }
 
 /*# sourceMappingURL=style.css.map */

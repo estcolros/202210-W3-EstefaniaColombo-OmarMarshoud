@@ -39,10 +39,11 @@ $primary-color: #5f2eea;
     box-sizing: border-box;
     border-radius: 16px;
 }
-.header {
+.header_top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1250px;
 }
 
 .header__button-hamburger {
@@ -254,6 +255,9 @@ label {
     border: 2px solid #00ba88;
     border-radius: 16px;
     margin-bottom: 26px;
+    .notification__text {
+        color: #00966d;
+    }
 }
 
 .notification--error {
@@ -266,6 +270,18 @@ label {
     border: 2px solid #ed2e7e;
     border-radius: 16px;
     margin-bottom: 56px;
+    .notification__text {
+        color: #c30052;
+    }
+}
+button.button--close {
+    float: right;
+    background: none;
+    border: 0;
+
+    img {
+        width: 13px;
+    }
 }
 
 .contact,
@@ -383,4 +399,10 @@ a {
     @include text-small();
     @include font-primary();
     color: #6e7191;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1250px;
 }
